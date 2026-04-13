@@ -31,6 +31,48 @@ Do NOT use for OCR text extraction -- use media_extract_text_from_image instead.
         },
         required: ["url"],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "base64": {
+              "type": "string",
+              "description": "Base64-encoded resized image"
+            },
+            "mimeType": {
+              "type": "string",
+              "description": "Output MIME type"
+            },
+            "format": {
+              "type": "string",
+              "description": "Image format"
+            },
+            "originalSizeBytes": {
+              "type": "number",
+              "description": "Original image size"
+            },
+            "resizedSizeBytes": {
+              "type": "number",
+              "description": "Resized image size"
+            },
+            "width": {
+              "type": "number",
+              "description": "Output width"
+            },
+            "height": {
+              "type": "number",
+              "description": "Output height"
+            },
+            "compressionRatio": {
+              "type": "number",
+              "description": "Compression ratio"
+            }
+          },
+          "required": [
+            "base64",
+            "mimeType",
+            "format"
+          ]
+        },
     },
   ],
 };
