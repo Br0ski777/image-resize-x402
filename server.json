@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "sse",
-      "url": "https://image-resize-x402-production.up.railway.app/mcp"
+      "url": "https://image-resize.api.klymax402.com/mcp"
     }
   ]
 }
