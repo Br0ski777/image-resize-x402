@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `media_resize_image` | POST | `/api/resize` | $0.003 | Resize an image from URL |
+| `media_resize_image` | POST | `/api/resize` | $0.008 | Resize an image from URL |
 
 ### `media_resize_image`
 
