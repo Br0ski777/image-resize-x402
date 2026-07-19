@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "POST",
       path: "/api/resize",
-      price: "$0.003",
+      price: "$0.008",
       description: "Resize an image from URL",
       toolName: "media_resize_image",
       toolDescription: `Use this when you need to resize an image from a URL or convert its format. Returns the resized image as base64 with metadata in JSON.
